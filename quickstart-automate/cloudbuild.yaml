@@ -18,12 +18,14 @@ steps:
     args: ['go', 'run', 'quickstart-automate/main.go']
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     args:
-    - 'gcloud'
-    - 'functions'
-    - 'deploy'
-    - 'hello_http' # Replace with the actual function nam e
-    - '--region=us-central1'
-    - '--trigger-http' # Or another trigger type if applicable
-    - '--runtime' 'python39' # e.g., nodejs14, python39
-    - '--source' 'quickstart-automate/main.py' #
+      - 'gcloud'
+      - 'functions'
+      - 'deploy'
+      - 'hello_http' 
+      - '--region=us-central1'
+      - '--trigger-http' 
+      - '--runtime' 
+      - 'python39' 
+      - '--source' 
+      - 'quickstart-automate/main.py' 
 # [END cloudbuild_quickstart_automate]
