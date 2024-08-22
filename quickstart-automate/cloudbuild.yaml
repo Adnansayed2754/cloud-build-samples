@@ -14,8 +14,6 @@
 
 # [START cloudbuild_quickstart_automate]
 steps:
-  - name: golang
-    args: ['go', 'run', 'quickstart-automate/main.go']
   - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
     args:
       - 'gcloud'
