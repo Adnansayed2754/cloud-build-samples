@@ -27,5 +27,5 @@ steps:
       - '--runtime' 
       - 'python39' 
       - '--source' 
-      - 'quickstart-automate/main.py' 
+      - 'quickstart-automate' 
 # [END cloudbuild_quickstart_automate]
