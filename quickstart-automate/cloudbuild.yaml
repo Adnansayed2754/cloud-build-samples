@@ -27,5 +27,9 @@ steps:
       - '--runtime' 
       - 'python39' 
       - '--source' 
-      - 'quickstart-automate/function' 
+      - 'quickstart-automate/function'
+      - '--project' 
+      - 'lightdust'
+      - '--service-account'
+      - 'triggerbuildcustom@lightdust.iam.gserviceaccount.com'
 # [END cloudbuild_quickstart_automate]
